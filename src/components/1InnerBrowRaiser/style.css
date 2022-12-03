@@ -1,0 +1,22 @@
+.parentEyebrow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.eyebrowInnerBrowRaiser {
+  width: 40%;
+  height: 20%;
+  border-radius: 0 30% 0 0;
+  box-shadow: -0.75vmin -3vmin 0 -1vmin var(--hair);
+  top: 30%;
+  left: 57%;
+  transform: translate(-1%, 0) rotate(-10deg);
+}
+
+.eyebrowInnerBrowRaiser + .eyebrowInnerBrowRaiser {
+  border-radius: 30% 0 0 0;
+  box-shadow: 0.75vmin -3vmin 0 -1vmin var(--hair);
+  left: 2%;
+  transform: translate(-1%, 0) rotate(+10deg);
+}

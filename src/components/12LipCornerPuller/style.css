@@ -1,0 +1,98 @@
+.Depressor + .Depressor {
+  width: 1%;
+  height: 5%;
+  box-shadow: 10vmin 10vmin 10 10vmin var(--depress);
+  background: var(--depress);
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 0);
+}
+.Depressor + .Depressor + .Depressor {
+  width: 2%;
+  height: 5%;
+  left: 55%;
+  box-shadow: 10vmin 10vmin 10 10vmin var(--depress);
+  background: var(--depress);
+  top: 25%;
+  transform: translate(-50%, 0);
+}
+
+.UpperLipRaiserNasolabialDeepener {
+  width: 40%;
+  height: 3%;
+  background: #f007;
+  top: 74%;
+  left: 28%;
+  transform: translate(-50%, 0);
+  transform: rotate(0deg);
+  background: var(--skin);
+  box-shadow: inset 0 0 0 5vmin rgba(255, 0, 0, 0.211);
+  z-index: 1;
+}
+ .UpperLipRaiserNasolabialDeepener +.LowerLipRaiserNasolabialDeepener {
+  width: 45%;
+  height: 10%;
+  background: #f007;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: var(--skin);
+  box-shadow: inset 0 0 0 2vmin rgba(255, 0, 0, 0.211);
+} 
+.mustacheLipCornerPuller {
+  width: 40%;
+  height: 11%;
+  background: var(--hair);
+  border-radius: 100% 20% 50%;
+  left: 52%;
+  top: 67%;
+  transform-origin: left center;
+  transform: translate(-100%, 0) rotate(-1deg);
+  box-shadow: inset 0 0 0 4vmin rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.mustacheLipCornerPuller + .mustacheLipCornerPuller {
+  left: 48%;
+  border-radius: 20% 100% 20% 50%;
+  transform-origin: right center;
+  transform: rotate(1deg);
+  z-index: 1;
+}
+.eyeLipCornerPuller {
+  width: 30%;
+  height: 13%;
+  background: #fff;
+  border-radius: 100% / 90%;
+  top: 33%;
+  left: 9%;
+  box-shadow: inset 0 4vmin 0 -3vmin rgba(0, 0, 0, 0.1), 0 4vmin 0 -2vmin rgba(0, 0, 0, 0.1),
+    inset 0 4vmin 0 -3vmin var(--skin),
+    0 -3vmin 3vmin -1vmin rgba(0, 0, 0, 0.05); /* inset 0 -1vmin 0 -0.5vmin var(--skin) */
+}
+
+.eyeLipCornerPuller::before {
+  width: 3vmin;
+  height: 3vmin;
+  background: #222;
+  border-radius: 50%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1.25vmin var(--iris);
+}
+
+.eyeLipCornerPuller::after {
+  width: 1vmin;
+  height: 1vmin;
+  background: #fff;
+  border-radius: 50%;
+  top: 35%;
+  left: 55%;
+  box-shadow: 0.5vmin 0.5vmin 0 -0.25vmin #fff;
+}
+
+.eyeLipCornerPuller + .eyeLipCornerPuller {
+  left: 61%;
+}
+

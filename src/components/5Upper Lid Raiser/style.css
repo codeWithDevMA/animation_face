@@ -1,0 +1,34 @@
+.eyeLidRaiser {
+  width: 30%;
+  height: 13%;
+  background: #fff;
+  border-radius: 100% / 90%;
+  top: 33%;
+  left: 9%;
+   box-shadow:0 -3vmin 3vmin -1vmin rgba(0, 0, 0, 0.05); 
+}
+
+.eyeLidRaiser::before {
+  width: 3vmin;
+  height: 3vmin;
+  background: #222;
+  border-radius: 50%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1.25vmin var(--iris);
+}
+
+.eyeLidRaiser::after {
+  width: 1vmin;
+  height: 1vmin;
+  background: #fff;
+  border-radius: 50%;
+  top: 35%;
+  left: 55%;
+  box-shadow: 0.5vmin 0.5vmin 0 -0.25vmin #fff;
+}
+
+.eyeLidRaiser + .eyeLidRaiser {
+  left: 61%;
+}

@@ -1,0 +1,18 @@
+.eyebrowOuterBrowRaiser {
+  width: 40%;
+  height: 20%;
+  border-radius: 0 30% 0 0;
+  box-shadow: -0.75vmin -3vmin 0 -1vmin var(--hair);
+  top: 30%;
+  left: 57%;
+  transform: translate(-1%, 0) rotate(0deg);
+}
+
+.eyebrowOuterBrowRaiser + .eyebrowOuterBrowRaiser {
+  color: var(--hair);
+  border-radius: 0 0 0 10%;
+  box-shadow: inset 0vmin -2vmin, 0vmin 0vmin;
+  top: 10%;
+  left: 2%;
+  transform: translate(-1%, 0) rotate(0deg);
+}

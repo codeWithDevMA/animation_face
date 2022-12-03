@@ -1,0 +1,225 @@
+.Depressor + .Depressor {
+  width: 1%;
+  height: 5%;
+  box-shadow: 10vmin 10vmin 10 10vmin var(--depress);
+  background: var(--depress);
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 0);
+}
+.Depressor + .Depressor + .Depressor {
+  width: 2%;
+  height: 5%;
+  left: 55%;
+  box-shadow: 10vmin 10vmin 10 10vmin var(--depress);
+  background: var(--depress);
+  top: 25%;
+  transform: translate(-50%, 0);
+}
+
+.lipUpperLipRaiser {
+  width: 45%;
+  height: 16%;
+  background: #f007;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: var(--skin);
+
+  box-shadow: inset 0 0 0 5vmin rgba(255, 0, 0, 0.211);
+}
+.theet {
+  width: 5%;
+  height: 5%;
+  background: rgb(250, 248, 248);
+  top: 73%;
+  left: 55%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+}
+.theet+.theet {
+  width: 5%;
+  height: 5%;
+  background: rgb(250, 248, 248);
+  top: 73%;
+  left: 49%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+}
+.theet+.theet+.theet {
+  width: 4%;
+  height: 5%;
+  background: rgb(250, 248, 248);
+  top: 73%;
+  left: 44%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+}
+
+.theet+.theet+.theet+.theet {
+  width: 4%;
+  height: 5%;
+  background: rgb(250, 248, 248);
+  top: 73%;
+  left: 39%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+}
+
+.theet+.theet+.theet+.theet +.theet {
+  width: 4%;
+  height: 4%;
+  background: rgb(250, 248, 248);
+  top: 74%;
+  left: 35%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+}
+.theet+.theet+.theet+.theet +.theet +.theet {
+  width: 4%;
+  height: 3%;
+  background: rgb(250, 248, 248);
+  top: 74%;
+  left: 30%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 3%;
+  background: rgb(250, 248, 248);
+  top: 74%;
+  left: 70%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 3%;
+  background: rgb(250, 248, 248);
+  top: 74%;
+  left: 65%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet {
+  width: 4%;
+  height: 3%;
+  background: rgb(250, 248, 248);
+  top: 74%;
+  left: 60%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet {
+  width: 4%;
+  height: 4%;
+  background: rgb(250, 248, 248);
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet {
+  width: 4%;
+  height: 4%;
+  background: rgb(250, 248, 248);
+  top: 79%;
+  left: 65%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 4%;
+  background: rgb(250, 248, 248);
+  top: 80%;
+  left: 55%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 4%;
+  background: rgb(250, 248, 248);
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 4%;
+  background: rgb(250, 248, 248);
+  top: 80%;
+  left: 45%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet +.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 4%;
+  background: rgb(250, 248, 248);
+  top: 80%;
+  left: 40%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet +.theet +.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 3%;
+  background: rgb(250, 248, 248);
+  top: 79%;
+  left: 35%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet +.theet +.theet +.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 3%;
+  background: rgb(250, 248, 248);
+  top: 78%;
+  left: 30%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}
+.theet+.theet+.theet+.theet +.theet +.theet +.theet +.theet+.theet +.theet +.theet +.theet +.theet +.theet +.theet +.theet +.theet +.theet {
+  width: 4%;
+  height: 3%;
+  background: rgb(250, 248, 248);
+  top: 78%;
+  left: 70%;
+  transform: translate(-50%, 0);
+  border-radius: 100% / 0% 1% 10% 100%;
+  
+
+}

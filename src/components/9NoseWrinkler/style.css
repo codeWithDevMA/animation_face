@@ -1,0 +1,99 @@
+.parentEyebrow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+ .eyebrowNoseWrinkler{
+  width: 40%;
+  height: 20%;
+  border-radius: 0 30% 0 0;
+  box-shadow: -0.75vmin -3vmin 0 -1vmin var(--hair);
+  top: 30%;
+  left: 57%;
+  transform: translate(-1%, 0) rotate(-10deg);
+}
+
+.eyebrowNoseWrinkler + .eyebrowNoseWrinkler {
+  border-radius: 30% 0 0 0;
+  box-shadow: 0.75vmin -3vmin 0 -1vmin var(--hair);
+  left: 2%;
+  transform: translate(-1%, 0) rotate(+10deg);
+}
+
+.eyeNoseWrinkler {
+  width: 30%;
+  height: 13%;
+  background: #fff;
+  border-radius: 100% / 90%;
+  top: 33%;
+  left: 9%;
+  box-shadow: inset 0 4vmin 0 -3vmin rgba(0, 0, 0, 0.1),
+    inset 0 4vmin 0 -3vmin var(--skin), inset 0 -1.5vmin 0 -0.5vmin var(--skin);
+}
+
+.eyeNoseWrinkler::before {
+  width: 3vmin;
+  height: 3vmin;
+  background: #222;
+  border-radius: 50%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1.25vmin var(--iris);
+}
+
+.eyeNoseWrinkler::after {
+  width: 1vmin;
+  height: 1vmin;
+  background: #fff;
+  border-radius: 50%;
+  top: 35%;
+  left: 55%;
+  box-shadow: 0.5vmin 0.5vmin 0 -0.25vmin #fff;
+}
+
+.eyeNoseWrinkler + .eyeNoseWrinkler {
+  left: 61%;
+} 
+.Depressor + .Depressor {
+  width: 1%;
+  height: 5%;
+  box-shadow: 10vmin 10vmin 10 10vmin var(--depress);
+  background: var(--depress);
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 0);
+}
+.Depressor + .Depressor + .Depressor {
+  width: 2%;
+  height: 5%;
+  left: 55%;
+  box-shadow: 10vmin 10vmin 10 10vmin var(--depress);
+  background: var(--depress);
+  top: 25%;
+  transform: translate(-50%, 0);
+}
+.Levatorlabii {
+  top: 40%;
+  left: 30%;
+  width: 10%;
+  height: 25%;
+  background-color: var(--Levatorlabii);
+  box-shadow: 2vmin 3vmin 0 1vmin var(--Levatorlabii);
+  transform: translate(-1%, 0) rotate(+50deg);
+}
+.Levatorlabii+.Levatorlabii {
+  top: 42%;
+  left: 55%;
+  width: 10%;
+  height: 25%;
+  background-color: var(--Levatorlabii);
+  box-shadow: 2vmin 3vmin 0 1vmin var(--Levatorlabii),
+  2vmin 10vmin 0 1vmin #00000009;
+  transform: translate(-1%, 0) rotate(-40deg);
+}
+
+
+
+
