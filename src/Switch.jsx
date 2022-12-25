@@ -7,7 +7,12 @@ import {
   F13,
   F14,
   F15,
+  F16,
+  F17,
   F2,
+  F20,
+  F22,
+  F23,
   F3,
   F5,
   F6,
@@ -52,6 +57,16 @@ const Switch = ({ status }) => {
       return <F14 />;
     case "15":
       return <F15 />;
+    case "16":
+      return <F16 />;
+    case "17":
+      return <F17 />;
+    case "20":
+      return <F20 />;
+    case "22":
+      return <F22 />;
+    case "23":
+      return <F23 />;
     default:
       return <Neutral />;
   }

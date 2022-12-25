@@ -1,0 +1,115 @@
+.UpperLip20Lip20CornerDepressor {
+  width: 40%;
+  height: 4%;
+  background: #f007;
+  top: 78%;
+  left: 30%;
+  transform: translate(-50%, 0);
+  transform: rotate(0deg);
+  background: var(--skin);
+  box-shadow: inset 0 0 0 5vmin rgba(255, 0, 0, 0.211);
+  z-index: 1;
+}
+.UpperLip20Lip20CornerDepressor + .LowerLip20Lip20CornerDepressor {
+  width: 43%;
+  height: 10%;
+  background: #f007;
+  top: 72%;
+  left: 50%;
+  border-radius: 0% 0% 50% 50%;
+  transform: translate(-50%, 0);
+  background: var(--skin);
+  box-shadow: inset 0 0 0 5vmin rgba(255, 0, 0, 0.211);
+}
+.mustacheLip20CornerPuller17Lip20CornerPuller {
+  width: 40%;
+  height: 11%;
+  background: var(--hair);
+  border-radius: 100% 20% 50%;
+  left: 52%;
+  top: 67%;
+  transform-origin: left center;
+  transform: translate(-100%, 0) rotate(-1deg);
+  box-shadow: inset 0 0 0 4vmin rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.mustacheLip20CornerPuller17Lip20CornerPuller
+  + .mustacheLip20CornerPuller17Lip20CornerPuller {
+  left: 48%;
+  border-radius: 20% 100% 20% 50%;
+  transform-origin: right center;
+  transform: rotate(1deg);
+  z-index: 1;
+}
+.eyeLip20CornerPuller {
+  width: 30%;
+  height: 11%;
+  background: #fff;
+  border-radius: 100% / 90%;
+  top: 33%;
+  left: 9%;
+  box-shadow: inset 0 4vmin 0 -3vmin rgba(0, 0, 0, 0.1),
+    0 4vmin 0 -2vmin rgba(0, 0, 0, 0.1), inset 0 4vmin 0 -3vmin var(--skin),
+    0 -3vmin 3vmin -1vmin rgba(0, 0, 0, 0.05); /* inset 0 -1vmin 0 -0.5vmin var(--skin) */
+}
+
+.eyeLip20CornerPuller::before {
+  width: 3vmin;
+  height: 3vmin;
+  background: #222;
+  border-radius: 50%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1.25vmin var(--iris);
+}
+
+.eyeLip20CornerPuller::after {
+  width: 1vmin;
+  height: 1vmin;
+  background: #fff;
+  border-radius: 50%;
+  top: 35%;
+  left: 55%;
+  box-shadow: 0.5vmin 0.5vmin 0 -0.25vmin #fff;
+}
+
+.eyeLip20CornerPuller + .eyeLip20CornerPuller {
+  left: 61%;
+}
+
+.eyebrowCheekPuffer {
+  width: 40%;
+  height: 20%;
+  border-radius: 0 30% 0 0;
+  box-shadow: -0.75vmin -3vmin 0 -1vmin var(--hair);
+  top: 30%;
+  left: 57%;
+}
+
+.eyebrowCheekPuffer + .eyebrowCheekPuffer {
+  border-radius: 30% 0 0 0;
+  box-shadow: 0.75vmin -3vmin 0 -1vmin var(--hair);
+  left: 2%;
+}
+.mustacheLip20CornerPuller17 {
+  width: 40%;
+  height: 14%;
+  background: var(--hair);
+  border-radius: 100% 20% 50%;
+  left: 52%;
+  top: 67%;
+  transform-origin: left center;
+  transform: translate(-100%, 0) rotate(-10deg);
+  box-shadow: inset 0 0 0 4vmin rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.mustacheLip20CornerPuller17 + .mustacheLip20CornerPuller17 {
+  left: 48%;
+  border-radius: 20% 100% 20% 50%;
+  transform-origin: right center;
+  transform: rotate(10deg);
+  z-index: 1;
+}
